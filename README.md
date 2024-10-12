@@ -1,5 +1,8 @@
-#<img src=".assets/logo.png" alt="Mon Logo" width="500" />
-Here you'll find some very simple pentesting software, all written in Python and very well commented. This project aims to be a hacking office suite for beginners.
+<div align="center">
+    <img src=".assets/logo.png" alt="Mon Logo" width="400" />
+</div>
+
+<h3>Here you'll find some very simple pentesting software, all written in Python and very well commented. This project aims to be a hacking office suite for beginners.</h3>
 
 The first program is SSH-Destructor.
 It's an easy-to-use SSH bruteforce program.
