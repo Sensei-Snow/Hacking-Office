@@ -19,12 +19,13 @@ while True:
     if confirmation =="":
         break
     else:
-        exit()
+        print("[Warning] -- Wrong command")
+        continue
 print("")
 
 # Display of rules and instructions for use
 print("This tool has been created for learning purposes. Only use it on targets that you have permission to attack. The developer is not responsible for any misuse of the software.")
-print("Don't hesitate to check the python code. :-)")
+print("Don't hesitate to check the python code :-)")
 # Create a loop to continue using the software if the rules are accepted (using the “Y” key)
 while True:
     acceptation = str(input("Do you accept the rules (Y/n) : "))
@@ -35,7 +36,8 @@ while True:
         print("Bro, why ?!?!")
         exit()
     else:
-        exit()
+        print("[Warning] -- Wrong command")
+        continue
 print("")
 
 # Display software developers
@@ -147,6 +149,7 @@ sleep_time_input = input("Enter the time between each try (Default : 2) : ")
 if sleep_time_input == "":
     sleep_time = 2
 else: sleep_time = int(sleep_time_input)
+print("")
 #-----------------------------------------------------------------------------------------------------------------------
 # Calls the bruteforce function if there is :
 # user list + password list
