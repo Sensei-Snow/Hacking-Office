@@ -9,3 +9,10 @@
 It's an easy-to-use SSH bruteforce program.
 <br>It requires the following libraries: pyfiglet - paramiko - socket - time.
 <br>If you wish to run the code from the SSH server in question, use the loopback IP address: 127.0.0.1
+
+- <h4>The second program is SnoopPort.</h4>
+It's an easy-to-use ports scanner program.
+<br>It requires the following libraries: pyfiglet - socket - time.
+<br>If you wish to run the code from the computer in question, use the loopback IP address: 127.0.0.1
+
+<br><h5>Thanks to TechieNeurons who helped me.</h5>
