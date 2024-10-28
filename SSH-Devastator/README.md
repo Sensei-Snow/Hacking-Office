@@ -1,0 +1,1 @@
+Il faudra importer un fichier contenant une liste d'utilisateurs ou de mots de passe pour pouvoir utiliser le logiciel. Le fichier "passwords_users_template.txt" est destiné à vous donner un modèle pour la syntaxe à adopter.
