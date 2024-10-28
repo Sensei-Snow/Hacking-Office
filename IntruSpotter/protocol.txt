@@ -1,0 +1,47 @@
+1	ICMP : Internet Control Message Protocol
+2	IGMP : Internet Group Management Protocol
+6	TCP : Transmission Control Protocol
+17	UDP : User Datagram Protocol
+41	IPv6 : Internet Protocol version 6
+47	GRE : Generic Routing Encapsulation
+50	ESP : Encapsulating Security Payload
+51	AH : Authentication Header
+53	DNS : Domain Name System
+67	DHCP : Dynamic Host Configuration Protocol
+68	DHCP : Dynamic Host Configuration Protocol (client)
+79	FINGER : Finger protocol
+80	HTTP : Hypertext Transfer Protocol
+81	HTTP : HTTP Alternate
+88	KRB5 : Kerberos
+110	POP3 : Post Office Protocol 3
+115	SFTP : Secure File Transfer Protocol
+119	NNTP : Network News Transfer Protocol
+123	NTP : Network Time Protocol
+135	DCE	Remote : Procedure Call
+139	NetBIOS : Network Basic Input/Output System
+143	IMAP : Internet Message Access Protocol
+161	SNMP : Simple Network Management Protocol
+162	SNMPTRAP : SNMP Trap
+179	BGP : Border Gateway Protocol
+194	IRC : Internet Relay Chat
+200	EGP : Exterior Gateway Protocol
+389	LDAP : Lightweight Directory Access Protocol
+443	HTTPS : Hypertext Transfer Protocol Secure
+445	SMB : Server Message Block
+465	SMTPS : SMTP Secure
+514	Syslog : System Logging Protocol
+518	EXE : Execution Protocol
+521	CNRP : CNRP (Common Network Resource Protocol)
+522	XMPP : Extensible Messaging and Presence Protocol
+623	IPMI : Intelligent Platform Management Interface
+631	IPP : Internet Printing Protocol
+8080	HTTP : HTTP Alternate
+8443	HTTPS : HTTPS Alternate
+8728	MQTT : Message Queuing Telemetry Transport
+8831	TDS : Tabular Data Stream
+8888	HTTP : HTTP Alternate
+9200	HTTP : Elasticsearch REST API
+9300	TCP : Elasticsearch Transport Protocol
+9999	RMTP : Real Media Transport Protocol
+27017	MongoDB : MongoDB Database Service
+27018	MongoDB : MongoDB Database Service (Sharded)
