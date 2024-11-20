@@ -23,7 +23,7 @@ It's an easy-to-use program to scan an entire network and find the intrus and mo
 
 - <h4>My projects for the future :</h4>
 1) Release the V1.0 of IntruSpotter.
-2) Release the graphic version of SnoopPort with QBit.
+2) Release the graphic version of one of my software with Qt.
 3) Release a C++ version of SSH-Devastator which will be faster as the python version but more complex.
 
 <br><h5>Thanks to TechieNeurons who helped me for SSH-Devastator and SnoopPort.</h5>
