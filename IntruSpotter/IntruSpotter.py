@@ -607,6 +607,16 @@ while True:
         continue
     # ---------------------------------------------------------------------------------- Commande "Devices -Find"
     elif command == "Devices -Find":
+        def find_mac_info(mac_address):
+            mac_prefix = mac_address[:8].upper().replace(":", "-")
+            with open("oui.txt", "r", encoding="utf-8") as file:
+                for line in file:
+                    if mac_prefix in line:
+                        manufacturer = line.split("\t")[-1].strip()
+                        return manufacturer
+
+            return "No informations found for this Mac address"
+
         number_devices = 0
         def scan_network(ip_range):
             global number_devices
@@ -640,10 +650,10 @@ while True:
                         print(f"[CRITICAL] -- the device with the IP address : {device['ip']} and the Mac address : {device['mac']} is connected to the network")
                         notification.notify(title="Security Alert", message=f"Device with IP address : {device['ip']} and Mac address : {device['mac']} is connected on the network",timeout=7, app_icon="danger_ico.ico")
                     else:
-                        print(f"IP: {device['ip']}, Mac: {device['mac']}")
+                        print(f"IP: {device['ip']}, Mac: {device['mac']}, Manufacturer: {find_mac_info(device['mac'])}")
                         continue
                 else:
-                    print(f"IP: {device['ip']}, Mac: {device['mac']}")
+                    print(f"IP: {device['ip']}, Mac: {device['mac']}, Manufacturer: {find_mac_info(device['mac'])}")
                     continue
             print("")
         continue
