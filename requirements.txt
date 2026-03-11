@@ -1,0 +1,5 @@
+pyfiglet
+plyer
+scapy
+paramiko
+socket
