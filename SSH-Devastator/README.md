@@ -1,1 +1,1 @@
-Il faudra importer un fichier contenant une liste d'utilisateurs ou de mots de passe pour pouvoir utiliser le logiciel. Le fichier "passwords_users_template.txt" est destiné à vous donner un modèle pour la syntaxe à adopter.
+You will need to import a file containing a list of users or passwords in order to use the software. The file `passwords_users_template.txt` is intended to provide you with a template for the syntax to use.
